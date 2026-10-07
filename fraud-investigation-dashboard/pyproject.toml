@@ -1,0 +1,11 @@
+[project]
+name = "fraud-investigation-dashboard"
+requires-python = ">= 3.11"
+version = "1.0.0"
+description = "AI Financial Fraud Investigation Dashboard"
+dependencies = [
+    "streamlit[snowflake]>=1.54.0"
+]
+
+[tool.uv]
+constraint-dependencies = ["numba>=0.56.0"]
